@@ -31,9 +31,9 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(path: "../MarqueeFoundation"),
-        .package(path: "../MarqueeShaderKit"),
-        .package(path: "../LoggingKit"),
+        .package(url: "https://github.com/Mountain-View-Staging/MarqueeFoundation.git", from: "1.0.0"),
+        .package(url: "https://github.com/Mountain-View-Staging/MarqueeShaderKit.git", from: "1.0.0"),
+        .package(url: "https://github.com/Mountain-View-Staging/LoggingKit.git", from: "1.0.0"),
     ],
     targets: [
         .target(
